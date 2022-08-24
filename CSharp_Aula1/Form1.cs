@@ -21,6 +21,7 @@ namespace CSharp_Aula1
         int N1;
         int N2;
         int N3;
+        int i;
 
         private void btnUniao_Click(object sender, EventArgs e)
         {
@@ -63,9 +64,18 @@ namespace CSharp_Aula1
 
         private void btnValorizar_Click(object sender, EventArgs e)
         {
-            N3 = N3 + int.Parse(txtValor.Text);
-            txtTotal.Text = N3.ToString();
-            txtValor.Text = "";
+            i= int.Parse(txtContagem.Text);
+            if (i != 0)
+            {
+                N3 = N3 + int.Parse(txtValor.Text);
+                txtTotal.Text = N3.ToString();
+                txtValor.Text = "";
+                txtContagem.Text = (i-1).ToString();
+                if (txtContagem.Text == 0.ToString())
+                {
+                    btnValorizar.Visible = false;
+                }
+            }
         }
     }
 }

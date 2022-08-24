@@ -48,6 +48,8 @@
             this.btnValorizar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.txtContagem = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtNome
@@ -221,11 +223,29 @@
             this.label8.TabIndex = 9;
             this.label8.Text = "Valor";
             // 
+            // txtContagem
+            // 
+            this.txtContagem.Location = new System.Drawing.Point(326, 377);
+            this.txtContagem.Name = "txtContagem";
+            this.txtContagem.Size = new System.Drawing.Size(127, 20);
+            this.txtContagem.TabIndex = 10;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(203, 380);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(110, 13);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "Quantidade de somas";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txtContagem);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnValorizar);
@@ -275,6 +295,8 @@
         private System.Windows.Forms.Button btnValorizar;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtContagem;
+        private System.Windows.Forms.Label label9;
     }
 }
 
