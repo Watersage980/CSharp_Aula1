@@ -71,7 +71,7 @@ namespace CSharp_Aula1
                 txtTotal.Text = N3.ToString();
                 txtValor.Text = "";
                 i = i - 1 ;
-                if (txtContagem.Text == 0.ToString())
+                if (i == 0)
                 {
                     btnValorizar.Visible = false;
                 }
