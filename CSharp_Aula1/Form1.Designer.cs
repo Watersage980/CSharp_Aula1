@@ -42,6 +42,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnSomar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNome
@@ -128,11 +129,11 @@
             // 
             // btnSoma
             // 
-            this.btnSoma.Location = new System.Drawing.Point(551, 138);
+            this.btnSoma.Location = new System.Drawing.Point(501, 139);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(48, 56);
             this.btnSoma.TabIndex = 4;
-            this.btnSoma.Text = "Somar";
+            this.btnSoma.Text = "Soma";
             this.btnSoma.UseVisualStyleBackColor = true;
             this.btnSoma.Click += new System.EventHandler(this.btnSoma_Click);
             // 
@@ -163,11 +164,22 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Resultado";
             // 
+            // btnSomar
+            // 
+            this.btnSomar.Location = new System.Drawing.Point(621, 139);
+            this.btnSomar.Name = "btnSomar";
+            this.btnSomar.Size = new System.Drawing.Size(50, 55);
+            this.btnSomar.TabIndex = 6;
+            this.btnSomar.Text = "Somar";
+            this.btnSomar.UseVisualStyleBackColor = true;
+            this.btnSomar.Click += new System.EventHandler(this.btnSomar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSomar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -205,6 +217,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnSomar;
     }
 }
 
