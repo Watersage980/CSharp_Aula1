@@ -65,6 +65,7 @@ namespace CSharp_Aula1
         {
             N3 = N3 + int.Parse(txtValor.Text);
             txtTotal.Text = N3.ToString();
+            txtValor.Text = "";
         }
     }
 }
