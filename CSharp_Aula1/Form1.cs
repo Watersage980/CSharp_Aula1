@@ -20,6 +20,7 @@ namespace CSharp_Aula1
         string sobrenome;
         int N1;
         int N2;
+        int N3;
 
         private void btnUniao_Click(object sender, EventArgs e)
         {
@@ -58,6 +59,12 @@ namespace CSharp_Aula1
             {
                 MessageBox.Show(i.ToString());
             }
+        }
+
+        private void btnValorizar_Click(object sender, EventArgs e)
+        {
+            N3 = N3 + int.Parse(txtValor.Text);
+            txtTotal.Text = N3.ToString();
         }
     }
 }
