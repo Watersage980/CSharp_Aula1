@@ -51,6 +51,7 @@
             this.txtContagem = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.btnTrocar = new System.Windows.Forms.Button();
+            this.btnMudar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNome
@@ -242,7 +243,7 @@
             // 
             // btnTrocar
             // 
-            this.btnTrocar.Location = new System.Drawing.Point(382, 96);
+            this.btnTrocar.Location = new System.Drawing.Point(383, 98);
             this.btnTrocar.Name = "btnTrocar";
             this.btnTrocar.Size = new System.Drawing.Size(70, 97);
             this.btnTrocar.TabIndex = 12;
@@ -250,11 +251,22 @@
             this.btnTrocar.UseVisualStyleBackColor = true;
             this.btnTrocar.Click += new System.EventHandler(this.btnTrocar_Click);
             // 
+            // btnMudar
+            // 
+            this.btnMudar.Location = new System.Drawing.Point(383, 2);
+            this.btnMudar.Name = "btnMudar";
+            this.btnMudar.Size = new System.Drawing.Size(70, 90);
+            this.btnMudar.TabIndex = 13;
+            this.btnMudar.Text = "Ir para terceira página";
+            this.btnMudar.UseVisualStyleBackColor = true;
+            this.btnMudar.Click += new System.EventHandler(this.btnMudar_Click);
+            // 
             // Jafar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnMudar);
             this.Controls.Add(this.btnTrocar);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtContagem);
@@ -310,6 +322,7 @@
         private System.Windows.Forms.TextBox txtContagem;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnTrocar;
+        private System.Windows.Forms.Button btnMudar;
     }
 }
 

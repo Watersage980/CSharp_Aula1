@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace CSharp_Aula1
 {
-    public partial class Simba : Form
+    public partial class Elsa : Form
     {
-        public Simba()
+        public Elsa()
         {
             InitializeComponent();
         }
 
-        private void btnVoltar_Click(object sender, EventArgs e)
+        private void btnInicio_Click(object sender, EventArgs e)
         {
-            Jafar form = new Jafar();
+            Jafar form=new Jafar();
             form.Show();
         }
 
-        private void btnAvancar_Click(object sender, EventArgs e)
+        private void btnRetornar_Click(object sender, EventArgs e)
         {
-            Elsa form = new Elsa();
+            Simba form=new Simba();
             form.Show();
         }
     }

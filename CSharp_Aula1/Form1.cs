@@ -83,5 +83,11 @@ namespace CSharp_Aula1
             Simba form = new Simba();
             form.Show();
         }
+
+        private void btnMudar_Click(object sender, EventArgs e)
+        {
+            Elsa form = new Elsa();
+            form.Show();
+        }
     }
 }
