@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CSharp_Aula1
 {
-    public partial class Form1 : Form
+    public partial class Jafar : Form
     {
-        public Form1()
+        public Jafar()
         {
             InitializeComponent();
         }
@@ -76,6 +76,12 @@ namespace CSharp_Aula1
                     btnValorizar.Visible = false;
                 }
             }
+        }
+
+        private void btnTrocar_Click(object sender, EventArgs e)
+        {
+            Simba form = new Simba();
+            form.Show();
         }
     }
 }

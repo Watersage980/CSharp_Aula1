@@ -1,6 +1,6 @@
 ﻿namespace CSharp_Aula1
 {
-    partial class Form1
+    partial class Jafar
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -50,6 +50,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtContagem = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.btnTrocar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNome
@@ -239,11 +240,22 @@
             this.label9.TabIndex = 11;
             this.label9.Text = "Quantidade de somas";
             // 
-            // Form1
+            // btnTrocar
+            // 
+            this.btnTrocar.Location = new System.Drawing.Point(382, 96);
+            this.btnTrocar.Name = "btnTrocar";
+            this.btnTrocar.Size = new System.Drawing.Size(70, 97);
+            this.btnTrocar.TabIndex = 12;
+            this.btnTrocar.Text = "Ir para próxima página";
+            this.btnTrocar.UseVisualStyleBackColor = true;
+            this.btnTrocar.Click += new System.EventHandler(this.btnTrocar_Click);
+            // 
+            // Jafar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnTrocar);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtContagem);
             this.Controls.Add(this.label8);
@@ -266,7 +278,7 @@
             this.Controls.Add(this.txtNomeCompleto);
             this.Controls.Add(this.txtSobrenome);
             this.Controls.Add(this.txtNome);
-            this.Name = "Form1";
+            this.Name = "Jafar";
             this.Text = " Ezequiel";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -297,6 +309,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtContagem;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnTrocar;
     }
 }
 
